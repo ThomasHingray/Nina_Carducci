@@ -96,36 +96,39 @@
 		</section>
 		<section id="services">
 			<h2 class="title">My services</h2>
-			<div class="container" itemscope itemtype ="https://schema.org/Services">
-				<div class="service" itemscope itemtype ="https://schema.org/Photo_shoots">
-					<div class="service__description">
-						<h3 itemprop="name">Photo Shoots</h3>
-						<p>Capture your most precious moments and make them unforgettable. I can travel anywhere in <span itemprop="location">Île-de-France</span> to take your photos.</p>
-					</div>
-					<div class="service__price">
-						<h4 itemprop="price">350€/half-day</h4>
-						<span itemprop="description">Equipment and travel included</span>
-					</div>
+			<div class="container" itemscope itemtype ="https://schema.org/Service">
+				<meta itemprop="serviceType" content="Photography">
+				<div class="service" itemprop="hasOfferCatalog" itemscope itemtype ="https://schema.org/OfferCatalog">
+					<div class="service" itemprop="itemOffered" itemscope itemtype="https://schema.org/Service">
+						<div class="service__description">
+							<h3 itemprop="name">Photo Shoots</h3>
+							<p>Capture your most precious moments and make them unforgettable. I can travel anywhere in <span itemprop="location">Île-de-France</span> to take your photos.</p>
+						</div>
+						<div class="service__price">
+							<h4 itemprop="price">350€/half-day</h4>
+							<span itemprop="description">Equipment and travel included</span>
+						</div>
 
-				</div>
-				<div class="service" itemscope itemtype ="https://schema.org/Retouching">
-					<div class="service__description">
-						<h3 itemprop="name">Retouching</h3>
-						<p>Are you looking to retouch your photos for a professional look? Optimally rendered images for your publications.</p>
 					</div>
-					<div class="service__price">
-						<h4 itemprop="price">50€/photo</h4>
-						<span itemprop="description">Two revisions per photo</span>
+					<div class="service" itemprop="itemOffered" itemscope itemtype="https://schema.org/Service">
+						<div class="service__description">
+							<h3 itemprop="name">Retouching</h3>
+							<p>Are you looking to retouch your photos for a professional look? Optimally rendered images for your publications.</p>
+						</div>
+						<div class="service__price">
+							<h4 itemprop="price">50€/photo</h4>
+							<span itemprop="description">Two revisions per photo</span>
+						</div>
 					</div>
-				</div>
-				<div class="service" itemscope itemtype ="https://schema.org/Photo_albums">
-					<div class="service__description">
-						<h3 itemprop="name">Photo Albums</h3>
-						<p>Personalized photo albums of cherished moments to share with loved ones or clients.</p>
-					</div>
-					<div class="service__price">
-						<h4 itemprop="price">400€ letter-sized album</h4>
-						<span itemprop="description">30 double-sided pages</span>
+					<div class="service" itemprop="itemOffered" itemscope itemtype="https://schema.org/Service">
+						<div class="service__description">
+							<h3 itemprop="name">Photo Albums</h3>
+							<p>Personalized photo albums of cherished moments to share with loved ones or clients.</p>
+						</div>
+						<div class="service__price">
+							<h4 itemprop="price">400€ letter-sized album</h4>
+							<span itemprop="description">30 double-sided pages</span>
+						</div>
 					</div>
 				</div>
 			</div>
