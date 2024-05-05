@@ -90,9 +90,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -102,7 +99,7 @@ body {
 }
 .nav-pills .nav-link.active-tag,
 .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -243,6 +240,28 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer {
+	display:flex;
+	justify-content: center;
+	width:100%;
+	padding-top:50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#informations h2 {
+	font-size:18px;
+}
+
+#informations ul {
+	padding:0;
+}
+
+#informations li {
+	font-size:14px;
+	list-style-type:none;
 }
 
 @media all and (max-width: 1180px) {
